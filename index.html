@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Health & Sanitation Hub</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+<body>
+    
+    <div id="splash-screen">
+        <div class="logo-container">
+            <div class="logo-animated">
+                <img src="C:\Users\HP\OneDrive\3rd sem\website 2\Picsart_25-07-19_17-07-10-643.png">
+            </div>
+            
+            <h1>SimpliCure</h1>
+
+        </div>
+    </div>
+
+    
+    <div id="login-page" class="hidden">
+        <div class="form-container">
+            <div class="form-box">
+                <h2>Welcome Back</h2>
+                <p>Log in to access the hub</p>
+                <form id="login-form">
+                    <div class="input-group">
+                        <i class="fas fa-user"></i>
+                        <input type="text" id="login-username" placeholder="Username" required>
+                    </div>
+                    <div class="input-group">
+                        <i class="fas fa-lock"></i>
+                        <input type="password" id="login-password" placeholder="Password" required>
+                    </div>
+                    <p id="login-error" class="error-message"></p>
+                    <button type="submit" class="btn btn-primary full-width">Log In</button>
+                </form>
+                <div class="form-footer">
+                    <p>Don't have an account? <a href="signup.html">Sign up here</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

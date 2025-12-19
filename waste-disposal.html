@@ -1,0 +1,154 @@
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Waste Disposal - Health & Sanitation Hub</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+<body>
+
+   
+    <header>
+        <div class="container">
+            
+            <a href="home.html" class="logo">
+                <img src="C:\Users\HP\OneDrive\3rd sem\website 2\Picsart_25-07-19_17-07-10-643.png">
+            &nbsp;
+                 SimpliCure
+                </a>
+            <nav>
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="clean-water.html" >Clean Water</a></li>
+                    <li><a href="waste-disposal.html" class="active">Waste Disposal</a></li>
+                     <li><a href="medical-services.html">Medical Services</a></li>
+                    <li><button id="logout-btn" class="btn btn-logout">Logout</button></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero hero-waste">
+            <div class="container">
+                <h1>Empowering Responsible Waste Management</h1>
+                <p>Your one-stop platform for responsible disposal, recycling, and sustainable waste practices.</p>
+               
+            </div>
+        </section>
+
+        <section class="core-services">
+            <div class="container">
+                <h2 class="section-title">Our Core Waste Disposal Services</h2>
+                <div class="services-grid services-grid-4">
+                    <div class="service-card-small">
+                        <i class="fas fa-trash"></i>
+                        <h3>General Waste</h3>
+                        <p>Learn more about general waste collection schedules and guidelines.</p>
+                    </div>
+                    <div class="service-card-small">
+                        <i class="fas fa-recycle"></i>
+                        <h3>Recycling</h3>
+                        <p>Find local recycling centers and learn what materials are accepted.</p>
+                    </div>
+                    <div class="service-card-small">
+                        <i class="fas fa-biohazard"></i>
+                        <h3>Hazardous Waste</h3>
+                        <p>Safely dispose of hazardous materials like batteries and chemicals.</p>
+                    </div>
+                     <div class="service-card-small">
+                        <i class="fas fa-laptop"></i>
+                        <h3>E-Waste</h3>
+                        <p>Find drop-off locations for your old electronics to be properly recycled.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="pickup" class="pickup-section">
+            <div class="container">
+                <div class="pickup-grid">
+                    <div class="pickup-form-container">
+                        <h2 class="section-title">Schedule Your Waste Pickup</h2>
+                        <form class="pickup-form">
+                            <label for="name">Your Name</label>
+                            <input type="text" id="name" required>
+                            <label for="address">Your Address</label>
+                            <input type="text" id="address" required>
+                            <label for="pickup-date">Pickup Date</label>
+                            <input type="date" id="pickup-date" required>
+                            <button type="submit" class="btn btn-primary">Schedule Pickup</button>
+                        </form>
+                    </div>
+                    <div class="community-says">
+                        <h3>What Our Community Says</h3>
+                        <div class="community-card">"Scheduling a pickup was so simple. A great service for the community!"</div>
+                        <div class="community-card">"I found a hazardous waste drop-off point just a few miles away. Very helpful."</div>
+                        <div class="community-card">"The recycling guides are clear and easy to follow."</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="faq-section">
+            <div class="container">
+                 <h2 class="section-title">Frequently Asked Questions</h2>
+                 <div class="accordion">
+                    <div class="accordion-item">
+                        <button class="accordion-header">
+                            What items are considered hazardous waste?
+                            <i class="fas fa-chevron-down"></i>
+                        </button>
+                        <div class="accordion-content">
+                            <p>Hazardous waste includes items like batteries, paints, solvents, pesticides, and electronics. These should not be thrown in the general trash.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <button class="accordion-header">
+                            How do I prepare my recyclables?
+                            <i class="fas fa-chevron-down"></i>
+                        </button>
+                        <div class="accordion-content">
+                            <p>Please rinse all containers to remove food residue. You do not need to remove labels. Flatten cardboard boxes to save space.</p>
+                        </div>
+                    </div>
+                 </div>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>Health & Sanitation Hub</h3>
+                    <p>Subscribe to our newsletter</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Input your email">
+                        <button type="submit" class="btn btn-secondary">Subscribe</button>
+                    </form>
+                </div>
+                <nav class="footer-nav">
+                    <ul>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="help.html">Help</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2024 Health & Sanitation Hub.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 

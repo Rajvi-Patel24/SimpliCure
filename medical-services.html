@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medical Services - Health & Sanitation Hub</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+           <a href="home.html" class="logo">
+                <img src="C:\Users\HP\OneDrive\3rd sem\website 2\Picsart_25-07-19_17-07-10-643.png">
+            &nbsp;
+                 SimpliCure
+                </a>
+            <nav>
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="clean-water.html">Clean Water</a></li>
+                    <li><a href="waste-disposal.html">Waste Disposal</a></li>
+                    <li><a href="medical-services.html" class="active">Medical Services</a></li>
+                    <li><button id="logout-btn" class="btn btn-logout">Logout</button></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero hero-medical">
+            <div class="container">
+                <h1>Find Local Medical Services Nearby</h1>
+                <p>Quickly locate hospitals, clinics, and pharmacies in your area.</p>
+            </div>
+        </section>
+
+        <section class="map-section">
+            <div class="container">
+                <h2 class="section-title">Interactive Map</h2>
+                <div class="map-container">
+                    <div class="map-placeholder">
+                        <div class="map-search-bar">
+                            <input type="text" placeholder="Enter your city or address...">
+                            <button class="btn btn-primary">Search</button>
+                        </div>
+                        <i class="fas fa-map-marked-alt map-icon"></i>
+                        <p>Map UI Placeholder</p>
+                    </div>
+                    <div class="location-list">
+                        <h3>Showing Results Near You</h3>
+                        <div class="location-item">
+                            <h4>City General Hospital</h4>
+                            <p>123 Main St, Downtown | 1.2 miles away</p>
+                            <a href="#">Get Directions</a>
+                        </div>
+                        <div class="location-item">
+                            <h4>Community Care Clinic</h4>
+                            <p>456 Oak Ave, Suburbia | 2.5 miles away</p>
+                             <a href="#">Get Directions</a>
+                        </div>
+                        <div class="location-item">
+                            <h4>HealthFirst Pharmacy</h4>
+                            <p>789 Pine Ln, Westside | 3.1 miles away</p>
+                             <a href="#">Get Directions</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="core-services">
+             <div class="container">
+                <h2 class="section-title">Service Categories</h2>
+                <div class="services-grid">
+                    <div class="service-card-small">
+                        <i class="fas fa-hospital"></i>
+                        <h3>Hospitals & Clinics</h3>
+                        <p>Find general and specialized medical centers.</p>
+                    </div>
+                    <div class="service-card-small">
+                        <i class="fas fa-pills"></i>
+                        <h3>Pharmacies</h3>
+                        <p>Locate nearby pharmacies to fill prescriptions.</p>
+                    </div>
+                    <div class="service-card-small">
+                        <i class="fas fa-ambulance"></i>
+                        <h3>Emergency Services</h3>
+                        <p>Quick access to emergency rooms and urgent care.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand"><h3>Health & Sanitation Hub</h3><p>Subscribe to our newsletter</p><form class="newsletter-form"><input type="email" placeholder="Input your email"><button type="submit" class="btn btn-secondary">Subscribe</button></form></div>
+                <nav class="footer-nav"><ul><li><a href="about.html">About</a></li><li><a href="contact.html">Contact</a></li><li><a href="help.html">Help</a></li></ul></nav>
+            </div>
+            <div class="footer-bottom"><p>© 2024 Health & Sanitation Hub.</p><div class="social-links"><a href="#"><i class="fab fa-twitter"></i></a><a href="#"><i class="fab fa-facebook-f"></i></a><a href="#"><i class="fab fa-instagram"></i></a></div></div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
